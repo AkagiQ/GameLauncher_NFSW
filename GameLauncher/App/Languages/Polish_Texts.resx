@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Global_Text_About" xml:space="preserve">
+    <value>O Programie</value>
+  </data>
+  <data name="Global_Text_EG_1" xml:space="preserve">
+    <value>Przestarzałe</value>
+  </data>
+  <data name="MainScreen_Button_Forgot_Password" xml:space="preserve">
+    <value>Zapomniane Hasło</value>
+    <comment>Used to Display Forgot Password Text [Default Text]</comment>
+  </data>
+  <data name="MainScreen_Button_Launch" xml:space="preserve">
+    <value>Uruchom</value>
+  </data>
+  <data name="MainScreen_Button_Login" xml:space="preserve">
+    <value>Login</value>
+    <comment>Used to Display on Button</comment>
+  </data>
+  <data name="MainScreen_Button_Play" xml:space="preserve">
+    <value>Graj Teraz</value>
+    <comment>Used to Display on Button</comment>
+  </data>
+  <data name="MainScreen_Button_Register" xml:space="preserve">
+    <value>Rejestracja</value>
+    <comment>Used to Display on Button</comment>
+  </data>
+  <data name="MainScreen_Button_SelectServer" xml:space="preserve">
+    <value>Wybierz Serwer</value>
+    <comment>Used to Display Button Text [Hard Coded Text]</comment>
+  </data>
+  <data name="MainScreen_Context_Close" xml:space="preserve">
+    <value>Zamknij Launcher</value>
+  </data>
+  <data name="MainScreen_Notification_Text_Alert" xml:space="preserve">
+    <value>Gra wyłączy się za 5 minut.\n Prosimy o manualny restart zanim zrobi to launcher.</value>
+  </data>
+  <data name="MainScreen_Notification_Text_Restart" xml:space="preserve">
+    <value>Wymuszony Restart -</value>
+  </data>
+  <data name="MainScreen_TextBox_GameFiles_Downloading" xml:space="preserve">
+    <value>Proszę poczekać, aż GameLauncher zakończy pobieranie plików gry.</value>
+  </data>
+  <data name="MainScreen_TextBox_GameFiles_Invalid_Location" xml:space="preserve">
+    <value>Nie znaleziono dysku {0}. Aktualny katalog instalacyjny jest teraz ustawiony na {1}.</value>
+  </data>
+  <data name="MainScreen_TextBox_SettingsScreen_Error" xml:space="preserve">
+    <value>Ekran Ustawień Wystąpił Błąd</value>
+  </data>
+  <data name="MainScreen_Text_AccountLink_Discord" xml:space="preserve">
+    <value>Zaproszenie Discord</value>
+    <comment>[Hard Coded Text]</comment>
+  </data>
+  <data name="MainScreen_Text_AccountLink_Facebook" xml:space="preserve">
+    <value>Grupa Facebook</value>
+    <comment>[Hard Coded Text]</comment>
+  </data>
+  <data name="MainScreen_Text_AccountLink_Home" xml:space="preserve">
+    <value>Strona Główna</value>
+    <comment>[Hard Coded Text]</comment>
+  </data>
+  <data name="MainScreen_Text_AccountLink_Twitter" xml:space="preserve">
+    <value>Twitter</value>
+    <comment>[Hard Coded Text]</comment>
+  </data>
+  <data name="MainScreen_Text_API_Launcher" xml:space="preserve">
+    <value>Główne API\n- Pinging</value>
+    <comment>Used to Display API Status [Default Text]</comment>
+  </data>
+  <data name="MainScreen_Text_API_Launcher_Description_Offline" xml:space="preserve">
+    <value>Launcher Jest Offline</value>
+  </data>
+  <data name="MainScreen_Text_API_Launcher_Description_Online" xml:space="preserve">
+    <value>Połączono z API</value>
+  </data>
+  <data name="MainScreen_Text_API_Server" xml:space="preserve">
+    <value>Graczy Online: ###\nZarejestrowanych: ###</value>
+    <comment>Used to Display Server Player Data [Place Holder Text]</comment>
+  </data>
+  <data name="MainScreen_Text_FS_Launcher_Status_Linux" xml:space="preserve">
+    <value>Status Launchera:\n- Linux Build</value>
+    <comment>[FS -&gt; Failsafe]</comment>
+  </data>
+  <data name="MainScreen_Text_FS_Login_Greeting" xml:space="preserve">
+    <value>Pshhh Pshhh</value>
+	<comment>Not sure what's this about lol</comment>
+  </data>
+  <data name="MainScreen_Text_Launcher_Status" xml:space="preserve">
+    <value>Launcher\n- Sprawdzanie</value>
+  </data>
+  <data name="MainScreen_Text_Launcher_Version" xml:space="preserve">
+    <value>Wersja: v</value>
+  </data>
+  <data name="MainScreen_Text_Login" xml:space="preserve">
+    <value>Wprowadź Dane Konta Aby Się Zalogować</value>
+  </data>
+  <data name="MainScreen_Text_Login_Greeting_Afternoon" xml:space="preserve">
+    <value>Dzień Dobry</value>
+  </data>
+  <data name="MainScreen_Text_Login_Greeting_Evening" xml:space="preserve">
+    <value>Dobry Wieczór</value>
+  </data>
+  <data name="MainScreen_Text_Login_Greeting_Morning" xml:space="preserve">
+    <value>Dzieńdoberek</value>
+  </data>
+  <data name="MainScreen_Text_Login_Greeting_YouNeedSleep" xml:space="preserve">
+    <value>Witaj Nocny Marku</value>
+  </data>
+  <data name="MainScreen_Text_PH_InsiderBuildNumber" xml:space="preserve">
+    <value>Data Wewnętrznej Kompilacji: ##-##-##-X</value>
+    <comment>Used to Display Build Date for Insider Builds [Default Text]</comment>
+  </data>
+  <data name="MainScreen_Text_PH_Launcher_Version" xml:space="preserve">
+    <value>Wersja: vX.X.X.X</value>
+    <comment>[PH -&gt; Place Holder]</comment>
+  </data>
+  <data name="MainScreen_Text_PH_SceneryGroup_Default" xml:space="preserve">
+    <value>Sceneria: Domyślny Tekst</value>
+    <comment>Scenery Holiday Text [Place Holder Text]</comment>
+  </data>
+  <data name="MainScreen_Text_PlayProgress" xml:space="preserve">
+    <value>Proszę Czekać</value>
+    <comment>Used to Display Download Progress Message Status [Default Text]</comment>
+  </data>
+  <data name="MainScreen_Text_Protection_Email" xml:space="preserve">
+    <value>Email Jest Ukryty</value>
+    <comment>[Hard Coded Text]</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_Christmas" xml:space="preserve">
+    <value>Sceneria: Boże Narodzenie</value>
+    <comment>Scenery Holiday Text</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_EG_1" xml:space="preserve">
+    <value>But It's Me!</value>
+	<comment>Not sure what's this about, should it be translated? What's the context?</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_Halloween" xml:space="preserve">
+    <value>Sceneria: Halloween</value>
+    <comment>Scenery Holiday Text</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_NewYears" xml:space="preserve">
+    <value>Sceneria: Nowy Rok</value>
+    <comment>Scenery Holiday Text</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_Normal" xml:space="preserve">
+    <value>Sceneria: Domyślna</value>
+    <comment>Scenery Holiday Text</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_Oktoberfest" xml:space="preserve">
+    <value>Sceneria: Oktoberfest</value>
+    <comment>Scenery Holiday Text</comment>
+  </data>
+  <data name="MainScreen_Text_SceneryGroup_Valentines" xml:space="preserve">
+    <value>Sceneria: Walentynki</value>
+    <comment>Scenery Holiday Text</comment>
+  </data>
+  <data name="MainScreen_Text_ServerPingStatus" xml:space="preserve">
+    <value>Twój Ping Do Serwera</value>
+    <comment>Used to Display Server Ping (If Supported) [Default Text]</comment>
+  </data>
+  <data name="MainScreen_Text_ServerShutDown" xml:space="preserve">
+    <value>Maks. Czas Sesji Gry:</value>
+    <comment>Used to Display Force Restart Timer on Panel [Default Text] / really hard to shorten it to get the full meaning, alternatively "Czas Pojedynczej Sesji (Gry)", or "Czas Poj. Sesji (Gry)" Gry is optional, but nicer.</comment>
+  </data>
+  <data name="MainScreen_Text_ServerShutDown_EG_1" xml:space="preserve">
+    <value>Launcher Gry!</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Checking" xml:space="preserve">
+    <value>Status Serwera:\n - Pingowanie</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Description_Cancelled" xml:space="preserve">
+    <value>Nie Udało Się Połączyć Z Serwerem</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Description_Offline" xml:space="preserve">
+    <value>Serwer Wydaje Się Być Offline<value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Description_Online" xml:space="preserve">
+    <value>Online: {0}\n Zarejestrowanych: {1}</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Description_Unstable" xml:space="preserve">
+    <value>Otrzymano Nieprawidłowy JSON Z Informacjami O Serwerze Gry.</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Offline" xml:space="preserve">
+    <value>Status Serwera:\n - Offline ( WYŁ )</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Online" xml:space="preserve">
+    <value>Status Serwera:\n - Online ( WŁ )</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Unknown" xml:space="preserve">
+    <value>Launcher Offline:\n - Nieznane</value>
+  </data>
+  <data name="MainScreen_Text_ServerStatus_Unstable" xml:space="preserve">
+    <value>Połączenie Z Serwerem:\n - Niestabilne</value>
+  </data>
+  <data name="Program_TextBox_SBRWIsRunning" xml:space="preserve">
+    <value>Instancja Launchera SBRW już działa</value>
+  </data>
+  <data name="Application_Exception_Unhandled" xml:space="preserve">
+    <value>SBRW Launcher Zostanie Zamknięty Z Powodu Nieobsługiwanego Wyjątku</value>
+  </data>
+  <data name="Application_Exception_Thread" xml:space="preserve">
+    <value>SBRW Launcher Zostanie Zamknięty Z Powodu Wyjątku Wątku</value>
+  </data>
+  <data name="KitEnabler_Dev" xml:space="preserve">
+    <value>Data Kompilacji DEV</value>
+  </data>
+  <data name="KitEnabler_Beta" xml:space="preserve">
+    <value>Data Kompilacji BETA</value>
+  </data>
+  <data name="KitEnabler_Public" xml:space="preserve">
+    <value>Data Kompilacji</value>
+  </data>
+  <data name="Program_TextBox_SimplifiedIsRunning" xml:space="preserve">
+    <value>Instancja Uproszczonego Launchera SBRW już działa</value>
+  </data>
+  <data name="Program_TextBox_NetFrame_P3" xml:space="preserve">
+    <value>Nie można uruchomić tej aplikacji.</value>
+  </data>
+  <data name="Program_TextBox_LZMA_Redownloaded" xml:space="preserve">
+    <value>Pobrano Brakujący Plik LZMA.dll.\nProszę Ponownie Uruchomić Launcher, Dzięki!</value>
+  </data>
+  <data name="Program_TextBox_File_NotFound" xml:space="preserve">
+    <value>Nie Znaleziono</value>
+  </data>
+  <data name="Program_TextBox_File_Invalid" xml:space="preserve">
+    <value>Nieprawidłowy Plik</value>
+  </data>
+  <data name="Program_TextBox_File_Invalid_CPU" xml:space="preserve">
+    <value>Niewłaściwa Architektura</value>
+  </data>
+  <data name="Program_TextBox_File_Invalid_Version" xml:space="preserve">
+    <value>Niewłaściwa Wersja</value>
+  </data>
+  <data name="Program_TextBox_File_Invalid_Start" xml:space="preserve">
+    <value>Nie Można Uruchomić Launchera.\nNastępujące Pliki Są Nieprawidłowe:\n\n</value>
+  </data>
+  <data name="Program_TextBox_NetFrame_P2" xml:space="preserve">
+    <value>Czy Chcesz Zainstalować Tę Wersję Platformy .NET Framework Teraz?</value>
+  </data>
+  <data name="Program_TextBox_NetFrame_P1" xml:space="preserve">
+    <value>Ta Aplikacja Wymaga Minimalnej Wersji Środowiska .NET Framework:\n</value>
+  </data>
+  <data name="Program_TextBox_System_Detection" xml:space="preserve">
+    <value>Wykrywanie Systemu Operacyjnego Nie Powiodło Się.</value>
+  </data>
+  <data name="Redistributable_VC_P5" xml:space="preserve">
+    <value>Zgodność</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher" xml:space="preserve">
+    <value>Korzystanie Z Launchera W Tej Lokalizacji Jest Niedozwolone.</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher_P2" xml:space="preserve">
+    <value>Następujące Lokalizacje Również NIE Są Dozwolone:</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher_P3" xml:space="preserve">
+    <value>(Katalog główowy dysku, np. C:\\ lub D:\\, musi znajdować się w folderze)</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher_P4" xml:space="preserve">
+    <value>(Obejmuje 'Pulpit', 'Dokumenty', 'Pobrane')</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher_P5" xml:space="preserve">
+    <value>Zamiast tego przenieś folder Launchera w inne miejsce, np.:</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher_P6" xml:space="preserve">
+    <value>lub</value>
+  </data>
+  <data name="Program_TextBox_Folder_Check_Launcher_P7" xml:space="preserve">
+    <value>(Lub dowolna inna lokalizacja "Dysk Lokalny" NTFS, np. 'D:')</value>
+  </data>
+  <data name="Program_TextBox_Folder_Write_Test" xml:space="preserve">
+    <value>Nie można wykonać Testowego Zapisu do foldera Launchera.\nProblem Z Uprawnieniami</value>
+  </data>
+  <data name="Program_TextBox_W7_TLS_P1" xml:space="preserve">
+    <value>Uwaga: Nie znaleziono następującego Klucza Rejestru:</value>
+  </data>
+  <data name="Program_TextBox_W7_TLS_P2" xml:space="preserve">
+    <value>To ustawienie musi być obecne, aby Launcher działał poprawnie!</value>
+  </data>
+  <data name="Program_TextBox_W7_TLS_P3" xml:space="preserve">
+    <value>Kliknięcie przycisku 'OK' spowoduje próbę dodania tego Klucza.</value>
+  </data>
+  <data name="Program_TextBox_W7_TLS_P4" xml:space="preserve">
+    <value>Opcja rejestru ustawiona.\n\nPamiętaj że zmiany mogą\nwymagać restartu systemu, aby zaczęły obowiązywać.</value>
+  </data>
+  <data name="Program_TextBox_W7_KB_P1" xml:space="preserve">
+    <value>Hej, Użytkowniku systemu Windows 7:\nWykryliśmy potencjalny problem związany z brakiem niektórych aktualizacji, które mogą być wymagane.</value>
+  </data>
+  <data name="Program_TextBox_W7_KB_P2" xml:space="preserve">
+    <value>Stwierdziliśmy, że następujące pakiety aktualizacji systemu Windows są wyświetlane jako niezainstalowane:</value>
+  </data>
+  <data name="Program_TextBox_W7_KB_P3" xml:space="preserve">
+    <value>Aktualizacja</value>
+  </data>
+  <data name="Program_TextBox_W7_KB_P4" xml:space="preserve">
+    <value>Możesz nacisnąć 'OK', aby kontynuować, a ten komunikat nie będzie już wyświetlany.</value>
+  </data>
+  <data name="Redistributable_VC_32" xml:space="preserve">
+    <value>Nie masz zainstalowanego 32-bitowego 2015-2019 VC++ Redistributable Package (lub nowszego).</value>
+  </data>
+  <data name="Redistributable_VC_P4" xml:space="preserve">
+    <value>Naciśnij OK aby zainstalować.</value>
+  </data>
+  <data name="Redistributable_VC_P3" xml:space="preserve">
+    <value>Może to spowodować ponowne uruchomienie komputera.</value>
+  </data>
+  <data name="Redistributable_VC_P2" xml:space="preserve">
+    <value>Spowoduje to instalację w Tle.</value>
+  </data>
+  <data name="Program_TextBox_GameIsRunning" xml:space="preserve">
+    <value>Instancja Need for Speed: World jest już uruchomiona</value>
+  </data>
+  <data name="Redistributable_VC_64" xml:space="preserve">
+    <value>Nie masz zainstalowanego 64-bitowego 2015-2019 VC++ Redistributable Package (lub nowszego).</value>
+  </data>
+  <data name="Redistributable_VC_P6" xml:space="preserve">
+    <value>Nie udało się uruchomić instalatora pakietu.\n Gra nie zostanie uruchomiona.</value>
+  </data>
+  <data name="Redistributable_VC_P7" xml:space="preserve">
+    <value>Nie udało się uruchomić instalatora pakietu.\n Kod Wyjścia Instalatora</value>
+  </data>
+  <data name="Redistributable_VC_P8" xml:space="preserve">
+    <value>Gra nie zostanie uruchomiona.</value>
+  </data>
+  <data name="Redistributable_VC_P9" xml:space="preserve">
+    <value>Nie udało się uruchomić instalatora pakietu.\n Gra nie zostanie uruchomiona.</value>
+  </data>
+  <data name="Redistributable_VC_P10" xml:space="preserve">
+    <value>Nie udało się pobrać instalatora pakietu.\nGra nie zostanie uruchomiona.</value>
+  </data>
+  <data name="VisualsAPIChecker_TextBox_No_API" xml:space="preserve">
+    <value>Nie można się Połączyć z żadnym API Listy Serwerów.\nSprawdź połączenie.\n\nTak, aby Zamknąć Launcher\n\nlub\n\nNie, aby Kontynuować</value>
+  </data>
+  <data name="VisualsAPIChecker_TextBox_No_API_P2" xml:space="preserve">
+    <value>Launcher został Zatrzymany, Nie Udało Się Połączyć z żadnym API Listy Serwerów</value>
+  </data>
+  <data name="VisualsAPIChecker_TextBox_No_API_P3" xml:space="preserve">
+    <value>Pamiętaj, że teraz Launcher może się zawiesić w każdej chwili.\nUpewnij się że następnym razem problem będzie rozwiązany</value>
+  </data>
+  <data name="VisualsAPIChecker_TextBox_No_API_P4" xml:space="preserve">
+    <value>Launcher będzie działać dalej, mimo że nie udało się Połączyć z API</value>
+  </data>
+  <data name="APIChecker_CacheEntryNotFound" xml:space="preserve">
+    <value>Nie Znaleziono Wpisu W Pamięci Podręcznej</value>
+  </data>
+  <data name="APIChecker_ConnectFailure" xml:space="preserve">
+    <value>Błąd Połączenia</value>
+  </data>
+  <data name="APIChecker_ConnectionClosed" xml:space="preserve">
+    <value>Połączenie Zamknięte</value>
+  </data>
+  <data name="APIChecker_KeepAliveFailure" xml:space="preserve">
+    <value>Błąd Utrzymania Połączenia</value>
+  </data>
+  <data name="APIChecker_MessageLengthLimitExceeded" xml:space="preserve">
+    <value>Przekroczono Limit Długości Wiadomości</value>
+  </data>
+  <data name="APIChecker_NameResolutionFailure" xml:space="preserve">
+    <value>Błąd Tłumaczenia Nazwy DNS</value>
+  </data>
+  <data name="APIChecker_Pending" xml:space="preserve">
+    <value>W Toku</value>
+  </data>
+  <data name="APIChecker_PipelineFailure" xml:space="preserve">
+    <value>Awaria Pipeline'u</value>
+  </data>
+  <data name="APIChecker_NotFound" xml:space="preserve">
+    <value>Nie Znaleziono</value>
+  </data>
+  <data name="APIChecker_ServerError" xml:space="preserve">
+    <value>Błąd Serwera</value>
+  </data>
+  <data name="APIChecker_ServerOverloaded" xml:space="preserve">
+    <value>Serwer Przeciążony</value>
+  </data>
+  <data name="APIChecker_ServerUnavailable" xml:space="preserve">
+    <value>Serwer Niedostępny</value>
+  </data>
+  <data name="APIChecker_GetWayTimeOut" xml:space="preserve">
+    <value>Limit Czasu GetWay</value>
+  </data>
+  <data name="APIChecker_ConnectionTimeOut" xml:space="preserve">
+    <value>Przekroczono Limit Czasu Połączenia</value>
+  </data>
+  <data name="APIChecker_OriginUnreachable" xml:space="preserve">
+    <value>Nie Można Połączyć Się Z Serwerem Źródłowym</value>
+  </data>
+  <data name="APIChecker_Timeout" xml:space="preserve">
+    <value>Przekroczono limit czasu</value>
+  </data>
+  <data name="APIChecker_SSLFailed" xml:space="preserve">
+    <value>Błąd SSL</value>
+  </data>
+  <data name="APIChecker_InvaildSSL" xml:space="preserve">
+    <value>Nieprawidłowy Certyfikat SSL</value>
+	<comment>If it's about certs then keep, if it's about protocol then change 'Certyfikat' for 'Protokół'</comment>
+  </data>
+  <data name="APIChecker_UnknownStatusCode" xml:space="preserve">
+    <value>Nieznany Kod Statusu</value>
+  </data>
+  <data name="APIChecker_ProxyNameResolutionFailure" xml:space="preserve">
+    <value>Błąd Rozpoznawania Nazwy Proxy</value>
+  </data>
+  <data name="APIChecker_ReceiveFailure" xml:space="preserve">
+    <value>Niepowodzenie Odbioru</value>
+  </data>
+  <data name="APIChecker_RequestCanceled" xml:space="preserve">
+    <value>Żądanie Anulowane</value>
+  </data>
+  <data name="APIChecker_RequestProhibitedByCachePolicy" xml:space="preserve">
+    <value>Żądanie Zabronione Przez Zasady Pamięci Podręcznej</value>
+  </data>
+  <data name="APIChecker_SecureChannelFailure" xml:space="preserve">
+    <value>Błąd Bezpiecznego Kanału</value>
+  </data>
+  <data name="APIChecker_SendFailure" xml:space="preserve">
+    <value>Wysyłanie Nie Powiodło Się</value>
+  </data>
+  <data name="APIChecker_ServerProtocolViolation" xml:space="preserve">
+    <value>Naruszenie Protokołu Serwera</value>
+  </data>
+  <data name="APIChecker_Success" xml:space="preserve">
+    <value>Sukces</value>
+  </data>
+  <data name="APIChecker_TrustFailure" xml:space="preserve">
+    <value>Błąd Zaufania</value>
+  </data>
+  <data name="APIChecker_Unknown" xml:space="preserve">
+    <value>Nieznany Błąd</value>
+  </data>
+  <data name="APIChecker_Null" xml:space="preserve">
+    <value>Adres URL był pusty</value>
+  </data>
+  <data name="APIChecker_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="APIChecker_Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="LauncherUpdateCheck_FS" xml:space="preserve">
+    <value>Przeglądarka Internetowa została otwarta na stronie Najnowszej Wersji Launchera W Serwisie GitHub, aby pobrać Nową Wersję</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider" xml:space="preserve">
+    <value>Status Launchera:</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider_Dev" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider_Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider_Unofficial" xml:space="preserve">
+    <value>Unofficial</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider_Text_Build" xml:space="preserve">
+    <value>Kompilacja</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider_Text_Stable" xml:space="preserve">
+    <value>Stabilna:</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Insider_Text_Current" xml:space="preserve">
+    <value>Obecna:</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Text_No_Update" xml:space="preserve">
+    <value>Status Launchera:\n- Obecna Wersja</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Text_Version" xml:space="preserve">
+    <value>Wersja:</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Text_Update" xml:space="preserve">
+    <value>Status Launchera:\n- Aktualizacja Dostępna</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Text_Update_New" xml:space="preserve">
+    <value>Nowości:</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Text_Invalid_JSON" xml:space="preserve">
+    <value>Status Launchera:\n- Nieprawidłowy JSON</value>
+  </data>
+  <data name="LauncherUpdateCheck_VS_Text_Invalid_Error" xml:space="preserve">
+    <value>Status Launchera:\n- Błąd Wersji API</value>
+  </data>
+</root>
